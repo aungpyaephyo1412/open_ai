@@ -1,13 +1,12 @@
 import Demo from "./components/Demo"
-import Hero from "./components/Hero"
+import Navbar from "./components/Navbar.jsx";
 
 
 const App = () => {
   return (
     <main>
-      <div className="main">
-
-        <Hero />
+      <div className="main flex-col">
+        <Navbar/>
         <Demo />
       </div>
     </main>
