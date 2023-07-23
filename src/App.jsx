@@ -1,11 +1,11 @@
 import Demo from "./components/Demo"
 import Navbar from "./components/Navbar.jsx";
-
+import BG from './assets/grid.svg'
 
 const App = () => {
   return (
     <main>
-      <div className="main flex-col">
+      <div className={`bg-cyan-300 min-h-screen`}>
         <Navbar/>
         <Demo />
       </div>
